@@ -1,2 +1,2 @@
-# NLP:Intro2LLM
-An exploration of Natural Language Processing, from introductory exploration to the development of an LLM (with traditional GPT2-3 Transformer architectures and eventually with newer developments such as Multi-Head Latent Attention from DeepSeek) 
+# NLP: Intro to LLM
+An exploration of Natural Language Processing, from introductory exploration to the development of an LLM. My goal is to explore traditional GPT2-3 transformer architectures and eventually dive into developments such as Latent Attention, PPO, GRPO, and RLHF.
