@@ -85,27 +85,28 @@ class MultiHeadAttention(torch.nn.Module):
         self.W_q = torch.nn.Linear(d_in, d_out, bias=qkv_bias)
         self.W_k = torch.nn.Linear(d_in, d_out, bias=qkv_bias)
         self.W_v = torch.nn.Linear(d_in, d_out, bias=qkv_bias)
-
+        # dropout on attention probs
         self.dropout = torch.nn.Dropout(p=dropout_rate)
 
         # causal mask, ones above the diagonal
         mask = torch.triu(torch.ones(context_length, context_length), diagonal=1).bool()
         self.register_buffer('mask', mask)
-
+        # projection of concatenated heads back to model dim
         self.out_proj = torch.nn.Linear(d_out, d_out) # a linear layer to combine all head outputs
         self.scale = self.d_head ** -0.5
 
     def forward(self, x):
         """
-        x: (batch_size, seq_len, d_in)
+        x: (batch_size, seq_len/num_tokens, d_in)
         returns: (batch_size, seq_len, d_out)
         """
         b, num_tokens, d_in = x.shape
-        keys = self.W_k(x) # shape: (batch_size, seq_len, d_in)
+        keys = self.W_k(x) # shape: (batch_size, seq_len/num_tokens, d_in)
         queries = self.W_q(x)
         values = self.W_v(x)
 
         # split the keys, queries and values into num_heads heads.
+        # (B, T, H, Dh) -> (B, H, T, Dh)
         def split_heads(tensor):
             """
             split Q,K,V into heads and permute to (batch_size, num_heads, seq_len, d_in)
