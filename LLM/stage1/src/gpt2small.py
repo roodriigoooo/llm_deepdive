@@ -153,6 +153,52 @@ def generate_text(model, idx, max_new_tokens, context_size):
             # append to running sequence
     return generated
 
+def generate_text_better(model, idx, max_new_tokens,
+                         context_size,temperature,
+                         k, p, eos_id=None):
+    device = next(model.parameters()).device
+    generated = idx.to(device)
+    with torch.inference_mode():
+        for _ in range(max_new_tokens):
+            context = generated[:, -context_size:]
+            with torch.no_grad():
+                logits = model(context)[:,-1, :]
+            logits /= max(temperature, 1e-8) #avoid division by zero
+            if k > 0:
+                top_k_values, _ = torch.topk(logits, k)
+                # the last value in top_k_values is the k-th highest logit
+                kth_value = top_k_values[:, -1]
+                # create a mask for all tokens with logits less tha the k-th highest
+                indices_to_remove = logits < kth_value[:, None]
+                logits[indices_to_remove] = -float('Inf')
+
+            # on the reduced set of logits, we apply the top-p filtering
+            if p < 1.0:
+                probs = torch.softmax(logits, dim=-1)
+                sorted_probs, sorted_indices = torch.sort(probs, descending=True)
+                cum_probs = torch.cumsum(sorted_probs, dim=-1)
+
+                #we now want to create a mask for tokens to remove (those outside this nucleus)
+                # find tokens whose cum sum is > p
+                sorted_indices_to_remove = cum_probs > p
+                # shift the mask to the right to keep the first token that crosses the threshold
+                sorted_indices_to_remove[..., 1:] = sorted_indices_to_remove[..., :-1].clone()
+                sorted_indices_to_remove[..., 0] = 0 #never remove the most likely token
+
+                indices_to_remove = sorted_indices[sorted_indices_to_remove]
+                logits.scatter_(1, indices_to_remove, -float('Inf'))
+
+            final_probs = torch.softmax(logits, dim=-1)
+            next_token = torch.multinomial(final_probs, num_samples=1)
+            if next_token == eos_id:
+                break
+            generated = torch.cat([generated, next_token], dim=1)
+    return generated
+
+
+
+
+
 
 text = """A man told me"""
 
