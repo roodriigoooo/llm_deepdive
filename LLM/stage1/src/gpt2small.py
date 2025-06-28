@@ -6,14 +6,13 @@ import tiktoken
 
 @dataclass
 class GPTConfig124:
-    def __init__(self, vocab_size, context_length, emb_dim, n_heads, n_layers, dropout, qkv_bias):
-        self.vocab_size: int = vocab_size
-        self.context_length: int = context_length
-        self.emb_dim: int = emb_dim
-        self.n_heads: int = n_heads
-        self.n_layers: int = n_layers
-        self.dropout: float = dropout
-        self.qkv_bias: bool = qkv_bias
+    vocab_size: int = 50257
+    context_length: int = 256
+    emb_dim: int = 768
+    n_heads: int = 12
+    n_layers: int = 12
+    dropout: float = 0.1
+    qkv_bias: bool = False
 
 class GELU(nn.Module):
     """
@@ -209,8 +208,7 @@ encoded_tensor = torch.tensor(encoded).unsqueeze(0)
 print("encoded_tensor:", encoded_tensor.shape)
 torch.manual_seed(123)
 
-cfg = GPTConfig124(vocab_size=50257, context_length=512, emb_dim=768,
-                   n_heads=12, n_layers=12, dropout=0.1, qkv_bias=False)
+cfg = GPTConfig124()
 model = GPTModel(cfg)
 
 model.eval()
