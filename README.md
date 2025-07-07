@@ -2,11 +2,9 @@
 
 An exploration of Natural Language Processing, from introductory exploration to the development of an LLM. My goal is to explore traditional GPT2-3 transformer architectures, more recent Llama architectures, and eventually dive into developments such as Latent Attention, PPO, GRPO, and RLHF. This is a personal effort to study and understand the architectures, techniques, concepts, and trends surrounding the field of LLMs, and to feel comfortable implementing them in a variety of contexts. 
 
-Contributions are very welcome!
-
 ## references
 
-Raschka, S. (2024). *Build a Large Language Model (From Scratch)*. Manning. 
+Raschka, S. (2024). *Build a Large Language Model (From Scratch)*. Manning. ISBN: 978-1633437166.
 
 > *Build a Large Language Model (From Scratch)*, authored by Sebastian Raschka, forms the basis of this exploration, and was the work that originally sparked my interest, perhaps because it offered explanations to concepts (which I once found too complex) with such clarity that they eventually became genuinely understandable.
 
