@@ -20,3 +20,6 @@ Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I. (2019). Lang
 
 Sennrich, R., Haddow, B., Birch, A., (2015). Neural Machine Translation of Rare Words with Subword Units. arXiv:1508.07909. [https://arxiv.org/pdf/1508.07909](https://arxiv.org/pdf/1508.07909)
 
+Karpathy, A. (2024, Feb 20). *Lets build the GPT Tokenizer*. YouTube. [Lets build the GPT tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE)
+
+> This video by Andrej Karpathy (and all the others in his *Neural Networks: Zero to Hero* playlist) implements, from scratch the Byte-Pair encoding. The code contained in my notebook implements some modifications and is in a way more exploratory, but all the logic and main implementation ideas are all his. I can't recommend enough the resources he puts out for free, especially coming from one of the top AI experts. 
