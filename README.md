@@ -2,7 +2,7 @@
 
 An exploration of Natural Language Processing, from introductory exploration to the development of an LLM. My goal is to explore traditional GPT2-3 transformer architectures, more recent Llama architectures, and eventually dive into developments such as Latent Attention, PPO, GRPO, and RLHF. This is a personal effort to study and understand the architectures, techniques, concepts, and trends surrounding the field of LLMs, and to feel comfortable implementing them in a variety of contexts. 
 
-## references
+## references and datasets used
 
 Raschka, S. (2024). *Build a Large Language Model (From Scratch)*. Manning. ISBN: 978-1633437166.
 
@@ -23,3 +23,13 @@ Sennrich, R., Haddow, B., Birch, A., (2015). Neural Machine Translation of Rare 
 Karpathy, A. (2024, Feb 20). *Lets build the GPT Tokenizer*. YouTube. [Lets build the GPT tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE)
 
 > This video by Andrej Karpathy (and all the others in his *Neural Networks: Zero to Hero* playlist) implements, from scratch the Byte-Pair encoding. The code contained in my notebook implements some modifications and is in a way more exploratory, but all the logic and main implementation ideas are all his. I can't recommend enough the resources he puts out for free, especially coming from one of the top AI experts. 
+
+#### datasets
+
+Austen, J. (2010). Pride and Prejudice. [Project Gutenberg](https://www.gutenberg.org/)
+
+Chopin, K. (2006). The Awakening, and Selected Short Stories by Kate Chopin. [Project Gutenberg](https://www.gutenberg.org/)
+
+Allison Parrish's Gutenberg Poetry Corpus
+
+> [This dataset](https://github.com/aparrish/gutenberg-poetry-corpus) was the one I used for the Byte-Pair tokenization training. A great dataset containing more than 3 million lines of poetry, also extracted from books from the Project Gutenberg.
