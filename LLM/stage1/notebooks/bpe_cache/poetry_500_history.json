@@ -1,0 +1,507 @@
+[
+  {
+    "merge_step": 1,
+    "seq_len": 3714403,
+    "vocab_size": 257
+  },
+  {
+    "merge_step": 6,
+    "seq_len": 3388019,
+    "vocab_size": 262
+  },
+  {
+    "merge_step": 11,
+    "seq_len": 3196227,
+    "vocab_size": 267
+  },
+  {
+    "merge_step": 16,
+    "seq_len": 3067132,
+    "vocab_size": 272
+  },
+  {
+    "merge_step": 21,
+    "seq_len": 2961069,
+    "vocab_size": 277
+  },
+  {
+    "merge_step": 26,
+    "seq_len": 2874328,
+    "vocab_size": 282
+  },
+  {
+    "merge_step": 31,
+    "seq_len": 2800988,
+    "vocab_size": 287
+  },
+  {
+    "merge_step": 36,
+    "seq_len": 2737278,
+    "vocab_size": 292
+  },
+  {
+    "merge_step": 41,
+    "seq_len": 2680254,
+    "vocab_size": 297
+  },
+  {
+    "merge_step": 46,
+    "seq_len": 2629694,
+    "vocab_size": 302
+  },
+  {
+    "merge_step": 51,
+    "seq_len": 2583895,
+    "vocab_size": 307
+  },
+  {
+    "merge_step": 56,
+    "seq_len": 2542684,
+    "vocab_size": 312
+  },
+  {
+    "merge_step": 61,
+    "seq_len": 2504520,
+    "vocab_size": 317
+  },
+  {
+    "merge_step": 66,
+    "seq_len": 2471307,
+    "vocab_size": 322
+  },
+  {
+    "merge_step": 71,
+    "seq_len": 2440221,
+    "vocab_size": 327
+  },
+  {
+    "merge_step": 76,
+    "seq_len": 2411286,
+    "vocab_size": 332
+  },
+  {
+    "merge_step": 81,
+    "seq_len": 2384450,
+    "vocab_size": 337
+  },
+  {
+    "merge_step": 86,
+    "seq_len": 2358624,
+    "vocab_size": 342
+  },
+  {
+    "merge_step": 91,
+    "seq_len": 2333870,
+    "vocab_size": 347
+  },
+  {
+    "merge_step": 96,
+    "seq_len": 2310843,
+    "vocab_size": 352
+  },
+  {
+    "merge_step": 101,
+    "seq_len": 2289439,
+    "vocab_size": 357
+  },
+  {
+    "merge_step": 106,
+    "seq_len": 2269757,
+    "vocab_size": 362
+  },
+  {
+    "merge_step": 111,
+    "seq_len": 2250719,
+    "vocab_size": 367
+  },
+  {
+    "merge_step": 116,
+    "seq_len": 2232381,
+    "vocab_size": 372
+  },
+  {
+    "merge_step": 121,
+    "seq_len": 2214780,
+    "vocab_size": 377
+  },
+  {
+    "merge_step": 126,
+    "seq_len": 2198358,
+    "vocab_size": 382
+  },
+  {
+    "merge_step": 131,
+    "seq_len": 2182112,
+    "vocab_size": 387
+  },
+  {
+    "merge_step": 136,
+    "seq_len": 2166674,
+    "vocab_size": 392
+  },
+  {
+    "merge_step": 141,
+    "seq_len": 2151864,
+    "vocab_size": 397
+  },
+  {
+    "merge_step": 146,
+    "seq_len": 2137685,
+    "vocab_size": 402
+  },
+  {
+    "merge_step": 151,
+    "seq_len": 2124211,
+    "vocab_size": 407
+  },
+  {
+    "merge_step": 156,
+    "seq_len": 2111111,
+    "vocab_size": 412
+  },
+  {
+    "merge_step": 161,
+    "seq_len": 2098334,
+    "vocab_size": 417
+  },
+  {
+    "merge_step": 166,
+    "seq_len": 2086191,
+    "vocab_size": 422
+  },
+  {
+    "merge_step": 171,
+    "seq_len": 2074528,
+    "vocab_size": 427
+  },
+  {
+    "merge_step": 176,
+    "seq_len": 2063283,
+    "vocab_size": 432
+  },
+  {
+    "merge_step": 181,
+    "seq_len": 2052385,
+    "vocab_size": 437
+  },
+  {
+    "merge_step": 186,
+    "seq_len": 2041947,
+    "vocab_size": 442
+  },
+  {
+    "merge_step": 191,
+    "seq_len": 2031938,
+    "vocab_size": 447
+  },
+  {
+    "merge_step": 196,
+    "seq_len": 2022206,
+    "vocab_size": 452
+  },
+  {
+    "merge_step": 201,
+    "seq_len": 2012823,
+    "vocab_size": 457
+  },
+  {
+    "merge_step": 206,
+    "seq_len": 2003595,
+    "vocab_size": 462
+  },
+  {
+    "merge_step": 211,
+    "seq_len": 1994559,
+    "vocab_size": 467
+  },
+  {
+    "merge_step": 216,
+    "seq_len": 1985914,
+    "vocab_size": 472
+  },
+  {
+    "merge_step": 221,
+    "seq_len": 1977528,
+    "vocab_size": 477
+  },
+  {
+    "merge_step": 226,
+    "seq_len": 1969348,
+    "vocab_size": 482
+  },
+  {
+    "merge_step": 231,
+    "seq_len": 1961299,
+    "vocab_size": 487
+  },
+  {
+    "merge_step": 236,
+    "seq_len": 1953356,
+    "vocab_size": 492
+  },
+  {
+    "merge_step": 241,
+    "seq_len": 1945559,
+    "vocab_size": 497
+  },
+  {
+    "merge_step": 246,
+    "seq_len": 1937953,
+    "vocab_size": 502
+  },
+  {
+    "merge_step": 251,
+    "seq_len": 1930549,
+    "vocab_size": 507
+  },
+  {
+    "merge_step": 256,
+    "seq_len": 1923383,
+    "vocab_size": 512
+  },
+  {
+    "merge_step": 261,
+    "seq_len": 1916376,
+    "vocab_size": 517
+  },
+  {
+    "merge_step": 266,
+    "seq_len": 1909504,
+    "vocab_size": 522
+  },
+  {
+    "merge_step": 271,
+    "seq_len": 1902759,
+    "vocab_size": 527
+  },
+  {
+    "merge_step": 276,
+    "seq_len": 1896138,
+    "vocab_size": 532
+  },
+  {
+    "merge_step": 281,
+    "seq_len": 1889575,
+    "vocab_size": 537
+  },
+  {
+    "merge_step": 286,
+    "seq_len": 1883180,
+    "vocab_size": 542
+  },
+  {
+    "merge_step": 291,
+    "seq_len": 1876907,
+    "vocab_size": 547
+  },
+  {
+    "merge_step": 296,
+    "seq_len": 1870759,
+    "vocab_size": 552
+  },
+  {
+    "merge_step": 301,
+    "seq_len": 1864721,
+    "vocab_size": 557
+  },
+  {
+    "merge_step": 306,
+    "seq_len": 1858744,
+    "vocab_size": 562
+  },
+  {
+    "merge_step": 311,
+    "seq_len": 1852901,
+    "vocab_size": 567
+  },
+  {
+    "merge_step": 316,
+    "seq_len": 1847151,
+    "vocab_size": 572
+  },
+  {
+    "merge_step": 321,
+    "seq_len": 1841598,
+    "vocab_size": 577
+  },
+  {
+    "merge_step": 326,
+    "seq_len": 1836154,
+    "vocab_size": 582
+  },
+  {
+    "merge_step": 331,
+    "seq_len": 1830820,
+    "vocab_size": 587
+  },
+  {
+    "merge_step": 336,
+    "seq_len": 1825547,
+    "vocab_size": 592
+  },
+  {
+    "merge_step": 341,
+    "seq_len": 1820418,
+    "vocab_size": 597
+  },
+  {
+    "merge_step": 346,
+    "seq_len": 1815446,
+    "vocab_size": 602
+  },
+  {
+    "merge_step": 351,
+    "seq_len": 1810534,
+    "vocab_size": 607
+  },
+  {
+    "merge_step": 356,
+    "seq_len": 1805695,
+    "vocab_size": 612
+  },
+  {
+    "merge_step": 361,
+    "seq_len": 1800967,
+    "vocab_size": 617
+  },
+  {
+    "merge_step": 366,
+    "seq_len": 1796313,
+    "vocab_size": 622
+  },
+  {
+    "merge_step": 371,
+    "seq_len": 1791711,
+    "vocab_size": 627
+  },
+  {
+    "merge_step": 376,
+    "seq_len": 1787182,
+    "vocab_size": 632
+  },
+  {
+    "merge_step": 381,
+    "seq_len": 1782735,
+    "vocab_size": 637
+  },
+  {
+    "merge_step": 386,
+    "seq_len": 1778333,
+    "vocab_size": 642
+  },
+  {
+    "merge_step": 391,
+    "seq_len": 1774001,
+    "vocab_size": 647
+  },
+  {
+    "merge_step": 396,
+    "seq_len": 1769756,
+    "vocab_size": 652
+  },
+  {
+    "merge_step": 401,
+    "seq_len": 1765545,
+    "vocab_size": 657
+  },
+  {
+    "merge_step": 406,
+    "seq_len": 1761416,
+    "vocab_size": 662
+  },
+  {
+    "merge_step": 411,
+    "seq_len": 1757339,
+    "vocab_size": 667
+  },
+  {
+    "merge_step": 416,
+    "seq_len": 1753313,
+    "vocab_size": 672
+  },
+  {
+    "merge_step": 421,
+    "seq_len": 1749337,
+    "vocab_size": 677
+  },
+  {
+    "merge_step": 426,
+    "seq_len": 1745402,
+    "vocab_size": 682
+  },
+  {
+    "merge_step": 431,
+    "seq_len": 1741514,
+    "vocab_size": 687
+  },
+  {
+    "merge_step": 436,
+    "seq_len": 1737702,
+    "vocab_size": 692
+  },
+  {
+    "merge_step": 441,
+    "seq_len": 1733942,
+    "vocab_size": 697
+  },
+  {
+    "merge_step": 446,
+    "seq_len": 1730219,
+    "vocab_size": 702
+  },
+  {
+    "merge_step": 451,
+    "seq_len": 1726539,
+    "vocab_size": 707
+  },
+  {
+    "merge_step": 456,
+    "seq_len": 1722908,
+    "vocab_size": 712
+  },
+  {
+    "merge_step": 461,
+    "seq_len": 1719321,
+    "vocab_size": 717
+  },
+  {
+    "merge_step": 466,
+    "seq_len": 1715771,
+    "vocab_size": 722
+  },
+  {
+    "merge_step": 471,
+    "seq_len": 1712250,
+    "vocab_size": 727
+  },
+  {
+    "merge_step": 476,
+    "seq_len": 1708759,
+    "vocab_size": 732
+  },
+  {
+    "merge_step": 481,
+    "seq_len": 1705312,
+    "vocab_size": 737
+  },
+  {
+    "merge_step": 486,
+    "seq_len": 1701903,
+    "vocab_size": 742
+  },
+  {
+    "merge_step": 491,
+    "seq_len": 1698581,
+    "vocab_size": 747
+  },
+  {
+    "merge_step": 496,
+    "seq_len": 1695320,
+    "vocab_size": 752
+  },
+  {
+    "merge_step": 500,
+    "seq_len": 1692762,
+    "vocab_size": 756
+  }
+]
